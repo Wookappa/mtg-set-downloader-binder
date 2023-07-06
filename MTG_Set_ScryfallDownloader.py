@@ -57,7 +57,8 @@ def get_card_data_and_download(card_name, set_code, card_number, is_from_list=Fa
     }
 
     response = requests.get(search_url, params=params)  # Make an HTTP GET request to the search URL with the query
-
+    saved = 0
+    not_saved = 0
     if response.status_code == 200:
         data = response.json()
 
@@ -68,6 +69,7 @@ def get_card_data_and_download(card_name, set_code, card_number, is_from_list=Fa
             print(f"No card found for '{card_name}' in set '{set_code}' with number '{card_number}'")
     else:
         print(f"Error retrieving card data for '{card_name}' in set '{set_code}' with number '{card_number}'. Response: {response.text}")
+        not_saved += 1
 
     return saved, not_saved
 
