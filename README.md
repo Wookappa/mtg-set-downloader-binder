@@ -5,9 +5,7 @@ This repository contains two Python scripts that allow you to download Magic: Th
 ## Scripts
 
 - `MTG_Set_ScryfallDownloader.py`: This script enables you to download card images for a specific Magic: The Gathering set from the Scryfall API. It prompts the user to enter the set code and SSL verification preference, then proceeds to download the card images into the `art` directory within the repository. The script relies on the Scryfall API for accessing card data.
-- This script allows you also to download card images from a list of cards specified in a text file. It reads the card names, set codes, and card numbers from the file and retrieves the corresponding card data and images from the Scryfall API. The downloaded images are saved in the `art/CardsList` directory.
-
-Binder_Generator.py: Generates an HTML page that represents a card binder for the 
+   - This script allows you also to download card images from a list of cards specified in a text file. It reads the card names, set codes, and card numbers from the file and retrieves the corresponding card data and images from the Scryfall API. The downloaded images are saved in the `art/CardsList` directory.
 
 - `Binder_Generator.py`: Generates an `.HTML` page that represents a card binder for the Magic: The Gathering cards downloaded using the MTG Set Scryfall Downloader script. The generated HTML file, named `binder.html`, provides a visual representation of the downloaded cards, organized in a grid-like format. It includes interactive features such as image previews, pagination, and navigation buttons to browse through the card collection.
 
@@ -54,21 +52,21 @@ pip install -r requirements.txt
         - The "cards.txt" file should contain the list of desired cards, with one card per line. Each line of the file should be formatted as follows:
 
 
-         ```
-         CardName (SetCode) CardNumber
-         ```
-         
-         - `CardName` represents the name of the card, without any additional spaces.
-         - `SetCode` represents the set code of the card, enclosed in parentheses.
-         - `CardNumber` represents the card number within the set.
-         
-         For example, here's an example of how the "cards.txt" file could be structured:
-         
-         ```
-         Black Lotus (UNL) 1
-         Force of Will (ALL) 49
-         Brainstorm (MMQ) 40
-         ```
+            ```
+            CardName (SetCode) (CardNumber)
+            ```
+            
+            - `CardName` represents the name of the card, without any additional spaces.
+            - `SetCode` (Optional) represents the set code of the card, enclosed in parentheses.
+            - `CardNumber` (Optional) represents the card number within the set.
+            
+            For example, here's an example of how the "cards.txt" file could be structured:
+            
+            ```
+            Black Lotus (UNL) 1
+            Force of Will (ALL) 49
+            Brainstorm (MMQ) 40
+            ```
          
          Make sure each card is on a separate line and that the information is separated by spaces. This format allows the `MTG_Set_ScryfallDownloader.py` script to correctly read the card information and download the corresponding images.
       The script will then proceed with the selected option and download the card images into the `art` directory.
