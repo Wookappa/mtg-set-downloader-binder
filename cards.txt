@@ -1,0 +1,50 @@
+Black Lotus (lea) 232
+Mountain (lea) 293
+Deathgrip (lea) 100
+Thoughtlace (lea) 82
+Disenchant (lea) 18
+Plains (lea) 287
+The Hive (lea) 272
+Birds of Paradise (lea) 186
+Plateau (lea) 279
+Forest (lea) 294
+Hurloon Minotaur (lea) 158
+Control Magic (lea) 52
+False Orders (lea) 147
+Mox Sapphire (lea) 265
+Steal Artifact (lea) 81
+Spell Blast (lea) 79
+Unsummon (lea) 86
+Disintegrate (lea) 140
+Mox Ruby (lea) 264
+Cyclopean Tomb (lea) 240
+Unholy Strength (lea) 131
+Island (lea) 288
+Orcish Oriflamme (lea) 166
+Chaos Orb (lea) 235
+Mox Jet (lea) 262
+Ice Storm (lea) 201
+Timetwister (lea) 84
+Cockatrice (lea) 189
+Tsunami (lea) 221
+Volcanic Eruption (lea) 88
+Gloom (lea) 110
+Orcish Artillery (lea) 165
+Tropical Island (lea) 283
+Plains (lea) 286
+Tunnel (lea) 178
+Earth Elemental (lea) 144
+Island (lea) 289
+Sol Ring (lea) 269
+Wall of Ice (lea) 224
+Lightning Bolt (lea) 161
+Juggernaut (lea) 255
+Time Walk (lea) 83
+Mesa Pegasus (lea) 28
+Mountain (lea) 292
+Dark Ritual (lea) 98
+Swamp (lea) 291
+Flashfires (lea) 151
+Mind Twist (lea) 115
+Shivan Dragon (lea) 174
+Underground Sea (lea) 285
