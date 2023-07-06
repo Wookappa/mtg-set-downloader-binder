@@ -175,18 +175,9 @@ def generate_image_gallery(images, grid_size=(8, 4), images_per_page=32, folder_
                 var spanPages = 5;
                 var startPage = parseInt(firstVisiblePage.textContent, 10);
                 var endPage = parseInt(lastVisiblePage.textContent, 10);
-                var acceptableDiff = (endPage - startPage) == maxPages
-                console.log(acceptableDiff, endPage - startPage)
-
 
                 spanPagesStart = startPage > 1 ? startPage - 1 : spanPages;
                 spanPagesEnd = hiddenPages.length - endPage >= spanPages ? spanPages : hiddenPages.length - endPage
-                
-                console.log("pagtot ",hiddenPages.length)
-                console.log("startPage ",startPage)
-                console.log("endPage ",endPage)
-                console.log("spanPages ",spanPages)
-                console.log("page + spanPages ",page + spanPages)
                 
                 if (page + spanPagesEnd >= endPage) {
                     startPage += spanPagesEnd
