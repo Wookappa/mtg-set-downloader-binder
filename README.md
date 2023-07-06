@@ -26,13 +26,13 @@ pip install -r requirements.txt
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/your-username/mtg-set-scryfall-downloader.git
+   git clone https://github.com/Wookappa/mtg-set-dowloader-binder.git
    ```
 
 2. Navigate to the repository directory:
 
    ```shell
-   cd mtg-set-scryfall-downloader
+   cd mtg-set-dowloader-binder
    ```
 
 3. Run the desired script:
